@@ -1,0 +1,13 @@
+po模式
+page object的缩写，页面对象，设计框架的思想，分层思想
+一般分三层
+1、按照页面划分，把每个页面可能涉及到的步骤写下来  pageObject包的内容  页面的配置信息写在__init__文件里
+2、把页面的步骤组合在一起形成一个业务    pageAction包的内容 动作组成的
+3、测试用例的书写，case层，跟单元测试框架结合使用，断言，参数，报告   case包（pageAction和pytest）
+运行：suite测试套件
+1、pytest.ini
+2、cmd 命令行
+3、把cmd命令用Python代码表示
+3.1、 pytest.main(['','']) 主要实现pytest的功能
+3.2、 subprocess.call（命令行，shell=Ture）    # 把cmd命令用Python代码表示
+# shell=Ture 把命令行参加数当做shell脚本传递到cmd终端

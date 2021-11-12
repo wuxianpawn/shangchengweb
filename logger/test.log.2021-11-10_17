@@ -1,0 +1,20 @@
+2021-11-10 17:03:21,420 INFO [root] [baseApi.py (__init__:13] - 正在初始化获取driver对象<selenium.webdriver.chrome.webdriver.WebDriver (session="f88c1f6340affd3e2677ce2ac8c9887f")>
+2021-11-10 17:03:21,420 INFO [root] [baseApi.py (__init__:13] - 正在初始化获取driver对象<selenium.webdriver.chrome.webdriver.WebDriver (session="f88c1f6340affd3e2677ce2ac8c9887f")>
+2021-11-10 17:03:21,421 INFO [root] [baseApi.py (base_click:33] - 正在点击：('xpath', '登录')元素
+2021-11-10 17:03:21,421 INFO [root] [baseApi.py (base_find_element:27] - 正在查找元素：('xpath', '登录')元素，最多等待30秒
+2021-11-10 17:05:54,345 INFO [root] [baseApi.py (__init__:13] - 正在初始化获取driver对象<selenium.webdriver.chrome.webdriver.WebDriver (session="40221a8162e124ea7fd4daab3e3167e0")>
+2021-11-10 17:05:54,346 INFO [root] [baseApi.py (__init__:13] - 正在初始化获取driver对象<selenium.webdriver.chrome.webdriver.WebDriver (session="40221a8162e124ea7fd4daab3e3167e0")>
+2021-11-10 17:05:54,346 INFO [root] [baseApi.py (base_click:33] - 正在点击：('xpath', '登录')元素
+2021-11-10 17:05:54,346 INFO [root] [baseApi.py (base_find_element:27] - 正在查找元素：('xpath', '登录')元素，最多等待30秒
+2021-11-10 17:12:33,251 INFO [root] [baseApi.py (__init__:13] - 正在初始化获取driver对象<selenium.webdriver.chrome.webdriver.WebDriver (session="22c179d1641a0e73b0d02d8e8a5ab7a3")>
+2021-11-10 17:12:33,252 INFO [root] [baseApi.py (__init__:13] - 正在初始化获取driver对象<selenium.webdriver.chrome.webdriver.WebDriver (session="22c179d1641a0e73b0d02d8e8a5ab7a3")>
+2021-11-10 17:12:33,252 INFO [root] [baseApi.py (base_click:33] - 正在点击：('xpath', '登录')元素
+2021-11-10 17:12:33,252 INFO [root] [baseApi.py (base_find_element:27] - 正在查找元素：('xpath', '登录')元素，最多等待30秒
+2021-11-10 17:14:56,704 INFO [root] [baseApi.py (__init__:13] - 正在初始化获取driver对象<selenium.webdriver.chrome.webdriver.WebDriver (session="8715454464cde485e0411f8812aa504b")>
+2021-11-10 17:14:56,704 INFO [root] [baseApi.py (__init__:13] - 正在初始化获取driver对象<selenium.webdriver.chrome.webdriver.WebDriver (session="8715454464cde485e0411f8812aa504b")>
+2021-11-10 17:14:56,704 INFO [root] [baseApi.py (base_click:33] - 正在点击：('link text', '登录')元素
+2021-11-10 17:14:56,704 INFO [root] [baseApi.py (base_find_element:27] - 正在查找元素：('link text', '登录')元素，最多等待30秒
+2021-11-10 17:14:57,715 INFO [root] [baseApi.py (base_find_element:27] - 正在查找元素：('name', 'accounts')元素，最多等待30秒
+2021-11-10 17:14:57,818 INFO [root] [baseApi.py (base_find_element:27] - 正在查找元素：('name', 'pwd')元素，最多等待30秒
+2021-11-10 17:14:57,938 INFO [root] [baseApi.py (base_click:33] - 正在点击：('xpath', '//form/div[3]/button')元素
+2021-11-10 17:14:57,938 INFO [root] [baseApi.py (base_find_element:27] - 正在查找元素：('xpath', '//form/div[3]/button')元素，最多等待30秒

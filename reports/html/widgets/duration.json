@@ -1,0 +1,21 @@
+[ {
+  "uid" : "e130ebfc3ca3e015",
+  "name" : "添加购物车测试用例",
+  "time" : {
+    "start" : 1636662777619,
+    "stop" : 1636662786149,
+    "duration" : 8530
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "903b9097b60a542e",
+  "name" : "删除购物车的测试用例",
+  "time" : {
+    "start" : 1636662786938,
+    "stop" : 1636662798133,
+    "duration" : 11195
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

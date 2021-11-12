@@ -1,0 +1,260 @@
+{
+  "uid" : "895f4c159745c0e7",
+  "name" : "添加购物车测试用例",
+  "fullName" : "test_cart.TestCart#test_add",
+  "historyId" : "aee2838d0715d12aa40fe630bf0736f3",
+  "time" : {
+    "start" : 1636631798846,
+    "stop" : 1636631803266,
+    "duration" : 4420
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '加入成功' in '<html class=\"js cssanimations\"><head>\\n\\t<meta charset=\"utf-8\">\\n\\t<title>ZK爆款连衣裙</title>\\n\\t<meta name=\"keywords\" co...0px;\" data-am-alert=\"\"><button type=\"button\" class=\"am-close am-close-spin\">×</button><p>请选择规格</p></div></body></html>'\n +  where '<html class=\"js cssanimations\"><head>\\n\\t<meta charset=\"utf-8\">\\n\\t<title>ZK爆款连衣裙</title>\\n\\t<meta name=\"keywords\" co...0px;\" data-am-alert=\"\"><button type=\"button\" class=\"am-close am-close-spin\">×</button><p>请选择规格</p></div></body></html>' = <base.baseApi.Base object at 0x0000024D2D21CF48>.base_page_source\n +    where <base.baseApi.Base object at 0x0000024D2D21CF48> = <case.test_cart.TestCart object at 0x0000024D2C93A508>.base",
+  "statusTrace" : "self = <case.test_cart.TestCart object at 0x0000024D2C93A508>\n\n    @allure.title('添加购物车测试用例')\n    def test_add(self):\n        self.cart.business_add_cart()\n        time.sleep(3)\n>       assert '加入成功' in self.base.base_page_source\nE       assert '加入成功' in '<html class=\"js cssanimations\"><head>\\n\\t<meta charset=\"utf-8\">\\n\\t<title>ZK爆款连衣裙</title>\\n\\t<meta name=\"keywords\" co...0px;\" data-am-alert=\"\"><button type=\"button\" class=\"am-close am-close-spin\">×</button><p>请选择规格</p></div></body></html>'\nE        +  where '<html class=\"js cssanimations\"><head>\\n\\t<meta charset=\"utf-8\">\\n\\t<title>ZK爆款连衣裙</title>\\n\\t<meta name=\"keywords\" co...0px;\" data-am-alert=\"\"><button type=\"button\" class=\"am-close am-close-spin\">×</button><p>请选择规格</p></div></body></html>' = <base.baseApi.Base object at 0x0000024D2D21CF48>.base_page_source\nE        +    where <base.baseApi.Base object at 0x0000024D2D21CF48> = <case.test_cart.TestCart object at 0x0000024D2C93A508>.base\n\ncase\\test_cart.py:32: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCart",
+    "time" : {
+      "start" : 1636631786716,
+      "stop" : 1636631798837,
+      "duration" : 12121
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "在首页点击登录链接",
+      "time" : {
+        "start" : 1636631794285,
+        "stop" : 1636631795515,
+        "duration" : 1230
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1636631795515,
+        "stop" : 1636631795635,
+        "duration" : 120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "usename",
+        "value" : "'xiaopawn'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1636631795635,
+        "stop" : 1636631795757,
+        "duration" : 122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'123456'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1636631795758,
+        "stop" : 1636631795833,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1636631786562,
+      "stop" : 1636631786716,
+      "duration" : 154
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '加入成功' in '<html class=\"js cssanimations\"><head>\\n\\t<meta charset=\"utf-8\">\\n\\t<title>ZK爆款连衣裙</title>\\n\\t<meta name=\"keywords\" co...0px;\" data-am-alert=\"\"><button type=\"button\" class=\"am-close am-close-spin\">×</button><p>请选择规格</p></div></body></html>'\n +  where '<html class=\"js cssanimations\"><head>\\n\\t<meta charset=\"utf-8\">\\n\\t<title>ZK爆款连衣裙</title>\\n\\t<meta name=\"keywords\" co...0px;\" data-am-alert=\"\"><button type=\"button\" class=\"am-close am-close-spin\">×</button><p>请选择规格</p></div></body></html>' = <base.baseApi.Base object at 0x0000024D2D21CF48>.base_page_source\n +    where <base.baseApi.Base object at 0x0000024D2D21CF48> = <case.test_cart.TestCart object at 0x0000024D2C93A508>.base",
+    "statusTrace" : "self = <case.test_cart.TestCart object at 0x0000024D2C93A508>\n\n    @allure.title('添加购物车测试用例')\n    def test_add(self):\n        self.cart.business_add_cart()\n        time.sleep(3)\n>       assert '加入成功' in self.base.base_page_source\nE       assert '加入成功' in '<html class=\"js cssanimations\"><head>\\n\\t<meta charset=\"utf-8\">\\n\\t<title>ZK爆款连衣裙</title>\\n\\t<meta name=\"keywords\" co...0px;\" data-am-alert=\"\"><button type=\"button\" class=\"am-close am-close-spin\">×</button><p>请选择规格</p></div></body></html>'\nE        +  where '<html class=\"js cssanimations\"><head>\\n\\t<meta charset=\"utf-8\">\\n\\t<title>ZK爆款连衣裙</title>\\n\\t<meta name=\"keywords\" co...0px;\" data-am-alert=\"\"><button type=\"button\" class=\"am-close am-close-spin\">×</button><p>请选择规格</p></div></body></html>' = <base.baseApi.Base object at 0x0000024D2D21CF48>.base_page_source\nE        +    where <base.baseApi.Base object at 0x0000024D2D21CF48> = <case.test_cart.TestCart object at 0x0000024D2C93A508>.base\n\ncase\\test_cart.py:32: AssertionError",
+    "steps" : [ {
+      "name" : "在首页点击zk裙子",
+      "time" : {
+        "start" : 1636631798847,
+        "stop" : 1636631798984,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "切换窗口-首页至商品页",
+      "time" : {
+        "start" : 1636631798984,
+        "stop" : 1636631799955,
+        "duration" : 971
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击粉色",
+      "time" : {
+        "start" : 1636631799955,
+        "stop" : 1636631800009,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击M码",
+      "time" : {
+        "start" : 1636631800009,
+        "stop" : 1636631800098,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击加入购物车",
+      "time" : {
+        "start" : 1636631800098,
+        "stop" : 1636631800153,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "cbcb223652427d2d",
+      "name" : "log",
+      "source" : "cbcb223652427d2d.txt",
+      "type" : "text/plain",
+      "size" : 3708
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCart::0",
+    "time" : {
+      "start" : 1636631834119,
+      "stop" : 1636631836403,
+      "duration" : 2284
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "购物车功能的测试"
+  }, {
+    "name" : "suite",
+    "value" : "test_cart"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCart"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-H0Q327L"
+  }, {
+    "name" : "thread",
+    "value" : "9668-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "895f4c159745c0e7.json",
+  "parameterValues" : [ ]
+}

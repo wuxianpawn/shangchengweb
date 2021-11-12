@@ -1,0 +1,2 @@
+INFO     root:baseApi.py:34 正在点击：('css selector', '#floor2 div.goods-list>div:nth-child(1)')元素
+INFO     root:baseApi.py:28 正在查找元素：('css selector', '#floor2 div.goods-list>div:nth-child(1)')元素，最多等待30秒

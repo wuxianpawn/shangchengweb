@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e6f65f64-7c14-4579-8746-863053670872" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shangcheng.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/baseApi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/driver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/openDriver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case/test_add_address.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case/test_cart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case/test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case/test_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/login_data.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item_path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/test.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/test.log.2021-11-10_17" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/test.log.2021-11-11_20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageAction/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageAction/actions_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageAction/addaddress_action.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageAction/cart_action.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageAction/login_action.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageAction/order_action.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageObject/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageObject/page_addAddress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageObject/page_buy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageObject/page_cart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageObject/page_goods_detail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageObject/page_index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageObject/page_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageObject/page_myaddress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageObject/page_personcenter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/po模式" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/attachments/1ef43ab347ba4b11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/attachments/27c49c53e8997743.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/attachments/59529077d780178f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/attachments/61c73e0943b2135a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/attachments/8417330dca5e3139.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/attachments/a36eb5c112100ce8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/attachments/c01653553085bb98.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/attachments/cbcb223652427d2d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/attachments/d4b0ef149b47157d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/attachments/d9a4d0a7c13f3bf5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/attachments/ea33e46a72a5582e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/attachments/ea4a2d753623b277.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/behaviors.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/categories.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/packages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/suites.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/test-cases/36a9e7dc939a890f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/test-cases/4358b73f9e81b51e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/test-cases/5bb5ccef18f3b50d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/test-cases/64af04c8645738c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/test-cases/6e8c9123f081f5dd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/test-cases/895f4c159745c0e7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/test-cases/903b9097b60a542e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/test-cases/9d5ca9bb002e82b6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/test-cases/b6232901492754ec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/test-cases/d01d52d7829786d0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/test-cases/d33610d0972a192d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/test-cases/e130ebfc3ca3e015.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/data/timeline.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/export/influxDbData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/export/mail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/export/prometheusData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/history/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/history/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/history/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/history/history.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/history/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/plugins/behaviors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/plugins/packages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/plugins/screen-diff/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/plugins/screen-diff/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/widgets/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/widgets/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/widgets/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/widgets/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/widgets/duration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/widgets/environment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/widgets/executors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/widgets/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/widgets/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/widgets/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/widgets/severity.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/widgets/status-chart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/widgets/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/html/widgets/summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/07132129-f248-4a6b-97cc-0ae5ebb05b7a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/23c35583-984a-4f7f-af0a-ada9970ff3ca-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/28661ae5-35d9-4d6f-9842-d8e60e249775-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/2c91480b-6ce3-41ae-86de-b1c51db6d0f3-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/2ed617d3-fa5b-44c5-9adc-142fd0989b2d-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/32de795b-19f9-4666-8a45-fe5c7695a977-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/343d7b0a-326c-462c-a925-60aa92a2be67-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/432877da-0309-44fb-aaab-d87685ee9b11-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/48565030-ab6c-4a44-9ec5-ff50434e60fe-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/53e346dc-aff5-49bb-afbe-061b81047762-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/549c705e-1936-4096-9dd3-76844cc933d2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/58918098-9b3b-4d01-b866-a1b22b939ff4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/5b240dcc-bfe6-42cf-8eba-2fcb9502dd24-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/62fc3409-2dca-45f3-b236-9e9f008e4b63-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/6c51334a-f505-40c6-bed1-af0f4cadebc5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/6dbb8193-ef61-4fc7-b557-22b3551775f0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/767ede2e-8590-4444-83dc-43a8bbb4d320-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/76ddf644-04bf-4b59-ba9d-dc970095fc10-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/78a82501-5a3b-49ec-b689-65b3592592b3-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/7d061130-5235-4a08-94d9-265ff82f6d77-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/7d75d560-dac8-4e78-aba7-1fdbb92f1739-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/843a39ec-0043-4e65-b943-8edb7ca2c3a6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/8c9ceda4-95d4-4d9a-bb0c-4f75c94e7d82-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/9d0c4bd0-9a42-4ea8-81bb-02074695ae1f-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/a172d7b5-3d33-48f9-b242-6188d47c65c4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/a96c174a-263c-4111-9b26-23715ed8d8fc-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/aef9a0c3-9281-4a3e-8c13-fa6f685ca2b0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/b2679f4b-bbab-4bde-9a60-218775a7923b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/c043a4ce-22a6-46a6-84db-82cdce09a8ff-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/c43addad-763b-46a0-bb94-78893e54a5d3-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/cab14412-088e-4183-8653-343d76de6d7d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/cab146dd-58c4-4e57-8302-dceed83f9e58-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/ccf7f4fb-458e-418f-aa2a-d1043d10949d-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/d90c3bcb-a278-4ab7-9b3c-898c094c5d6b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/e4f89eec-33d1-4687-84f7-5c3e67949693-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/e8544848-beaa-451f-af49-23d04c523ff4-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/ee096fcd-29da-40a2-b13d-71f57c6aa320-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/f2426103-1a9a-42ef-82c8-39c02f5bfea8-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/f6b6657d-ebd7-4b08-a5c7-718a0cb9f161-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/f7f0951c-cd0c-44df-bddd-da3faac1bd3b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/f94b3cfe-816d-43e5-9cfc-863147463442-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/shangcheng/fa45dd41-517d-4312-8818-f1be704e9f4f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool/readData.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pageObject/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="21" column="18" selection-start-line="21" selection-end-line="21" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case/test_cart.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="989">
+              <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pageObject/page_cart.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pageAction/cart_action.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base/driver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base/openDriver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/po模式">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/person.py" />
+        <option value="$PROJECT_DIR$/driver.py" />
+        <option value="$PROJECT_DIR$/web_login.py" />
+        <option value="$PROJECT_DIR$/shangcheng_addAddress.py" />
+        <option value="$PROJECT_DIR$/shangcheng_order.py" />
+        <option value="$PROJECT_DIR$/baseApi.py" />
+        <option value="$PROJECT_DIR$/item_path.py" />
+        <option value="$PROJECT_DIR$/tool/logger.py" />
+        <option value="$PROJECT_DIR$/page/__init__.py" />
+        <option value="$PROJECT_DIR$/web_order.py" />
+        <option value="$PROJECT_DIR$/page/shangcheng_order.py" />
+        <option value="$PROJECT_DIR$/pageObject/page.login.py" />
+        <option value="$PROJECT_DIR$/pageObject/page.index.py" />
+        <option value="$PROJECT_DIR$/tool/readData.py" />
+        <option value="$PROJECT_DIR$/case/test_login.py" />
+        <option value="$PROJECT_DIR$/pageAction/login_action.py" />
+        <option value="$PROJECT_DIR$/case/test_order.py" />
+        <option value="$PROJECT_DIR$/pageObject/page_order.py" />
+        <option value="$PROJECT_DIR$/pageObject/page_buy.py" />
+        <option value="$PROJECT_DIR$/pageObject/page_login.py" />
+        <option value="$PROJECT_DIR$/data/login_data.yml" />
+        <option value="$PROJECT_DIR$/page/shangcheng_addAddress.py" />
+        <option value="$PROJECT_DIR$/pageObject/page_addAddress.py" />
+        <option value="$PROJECT_DIR$/pageObject/page_personcenter.py" />
+        <option value="$PROJECT_DIR$/pageObject/page_myaddress.py" />
+        <option value="$PROJECT_DIR$/pageAction/addaddress_action.py" />
+        <option value="$PROJECT_DIR$/case/test_address.py" />
+        <option value="$PROJECT_DIR$/case/test_add_address.py" />
+        <option value="$PROJECT_DIR$/pageAction/order_action.py" />
+        <option value="$PROJECT_DIR$/pageAction/actions_manager.py" />
+        <option value="$PROJECT_DIR$/pageObject/page_index.py" />
+        <option value="$PROJECT_DIR$/pageObject/page_goods_detail.py" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/pageObject/__init__.py" />
+        <option value="$PROJECT_DIR$/base/baseApi.py" />
+        <option value="$PROJECT_DIR$/pageAction/cart_action.py" />
+        <option value="$PROJECT_DIR$/pageObject/page_cart.py" />
+        <option value="$PROJECT_DIR$/case/test_cart.py" />
+        <option value="$PROJECT_DIR$/base/opendriver.py" />
+        <option value="$PROJECT_DIR$/base/driver.py" />
+        <option value="$PROJECT_DIR$/base/openDriver.py" />
+        <option value="$PROJECT_DIR$/po模式" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="527" />
+    <option name="y" value="31" />
+    <option name="width" value="1399" />
+    <option name="height" value="990" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shangcheng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shangcheng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shangcheng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shangcheng" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="shangcheng" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="H:\test\shangcheng" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/case" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\test\shangcheng\pageObject" />
+      <recent name="H:\test\shangcheng" />
+      <recent name="H:\test\shangcheng\page" />
+      <recent name="H:\test\shangcheng\base" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\test\shangcheng\case" />
+      <recent name="H:\test\shangcheng\pageAction" />
+      <recent name="H:\test\shangcheng\pageObject" />
+      <recent name="H:\test\shangcheng\tool" />
+      <recent name="H:\test\shangcheng\data" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run">
+    <configuration name="login_action" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="shangcheng" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pageAction" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pageAction/login_action.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="openDriver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="shangcheng" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/openDriver.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="readData" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="shangcheng" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tool" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tool/readData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="shangcheng" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="shangcheng_order" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="shangcheng" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="H:\test\shangcheng\web_order.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.openDriver" />
+        <item itemvalue="Python.readData" />
+        <item itemvalue="Python.login_action" />
+        <item itemvalue="Python.shangcheng_order" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6f65f64-7c14-4579-8746-863053670872" name="Default Changelist" comment="" />
+      <created>1636364175880</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636364175880</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="527" y="31" width="1399" height="990" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32972324" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web_login.py" />
+    <entry file="file://$PROJECT_DIR$/../lianxi4/logger_lianxi14.py" />
+    <entry file="file://$PROJECT_DIR$/../lianxi4_logger/logger_lianxi14.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_addAddress.py" />
+    <entry file="file://$PROJECT_DIR$/item_path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_order.py" />
+    <entry file="file://$PROJECT_DIR$/tool/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#1#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/page/shangcheng_login.py" />
+    <entry file="file://$USER_HOME$/Desktop/Python/第十三周/lesson14_1/lesson13_1/pageObject/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/readData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1414">
+          <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Python/第十三周/lesson14_1/lesson13_1/case/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_order.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageAction/login_action.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/shangcheng_order.py" />
+    <entry file="file://$PROJECT_DIR$/pageObject/page_order.py" />
+    <entry file="file://$PROJECT_DIR$/pageObject/page_buy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageObject/page_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/login_data.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/shangcheng_addAddress.py" />
+    <entry file="file://$USER_HOME$/Desktop/Python/第十三周/lesson13_1/base/baseApi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-492" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Python/第十三周/lesson14_1/lesson13_1/base/baseApi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="108" column="59" lean-forward="true" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageObject/page_myaddress.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="23" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageAction/addaddress_action.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageObject/page_personcenter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_add_address.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageObject/page_addAddress.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="89" column="27" lean-forward="true" selection-start-line="80" selection-start-column="8" selection-end-line="89" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageAction/order_action.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageAction/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageObject/page_index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageObject/page_goods_detail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/baseApi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2116">
+          <caret line="95" column="33" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
+          <folding>
+            <element signature="e#71#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageAction/actions_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageObject/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="18" selection-start-line="21" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_cart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="989">
+          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageAction/cart_action.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/openDriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/po模式">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageObject/page_cart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

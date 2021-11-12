@@ -1,0 +1,189 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-H0Q327L",
+    "children" : [ {
+      "name" : "22024-MainThread",
+      "children" : [ {
+        "name" : "添加购物车测试用例",
+        "uid" : "e130ebfc3ca3e015",
+        "parentUid" : "4d3d91325f0e73c51444815f2721e074",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636662777619,
+          "stop" : 1636662786149,
+          "duration" : 8530
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除购物车的测试用例",
+        "uid" : "903b9097b60a542e",
+        "parentUid" : "4d3d91325f0e73c51444815f2721e074",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636662786938,
+          "stop" : 1636662798133,
+          "duration" : 11195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4d3d91325f0e73c51444815f2721e074"
+    }, {
+      "name" : "4044-MainThread",
+      "children" : [ {
+        "name" : "添加购物车测试用例",
+        "uid" : "d33610d0972a192d",
+        "parentUid" : "2031893d9596b74d91025f957a47042a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636660564273,
+          "stop" : 1636660572802,
+          "duration" : 8529
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除购物车的测试用例",
+        "uid" : "64af04c8645738c",
+        "parentUid" : "2031893d9596b74d91025f957a47042a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636660573777,
+          "stop" : 1636660585213,
+          "duration" : 11436
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2031893d9596b74d91025f957a47042a"
+    }, {
+      "name" : "7716-MainThread",
+      "children" : [ {
+        "name" : "添加购物车测试用例",
+        "uid" : "36a9e7dc939a890f",
+        "parentUid" : "113d6d26b188d1a574ca1c9cd289feab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636631533334,
+          "stop" : 1636631564764,
+          "duration" : 31430
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除购物车的测试用例",
+        "uid" : "6e8c9123f081f5dd",
+        "parentUid" : "113d6d26b188d1a574ca1c9cd289feab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636631565016,
+          "stop" : 1636631595204,
+          "duration" : 30188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "113d6d26b188d1a574ca1c9cd289feab"
+    }, {
+      "name" : "17636-MainThread",
+      "children" : [ {
+        "name" : "删除购物车的测试用例",
+        "uid" : "4358b73f9e81b51e",
+        "parentUid" : "05ee4c4f9992c2acee5ddb51ff4381a7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636632012023,
+          "stop" : 1636632042243,
+          "duration" : 30220
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "添加购物车测试用例",
+        "uid" : "d01d52d7829786d0",
+        "parentUid" : "05ee4c4f9992c2acee5ddb51ff4381a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636632005522,
+          "stop" : 1636632012017,
+          "duration" : 6495
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "05ee4c4f9992c2acee5ddb51ff4381a7"
+    }, {
+      "name" : "20460-MainThread",
+      "children" : [ {
+        "name" : "添加购物车测试用例",
+        "uid" : "5bb5ccef18f3b50d",
+        "parentUid" : "3b5ef6c378682b83d398b3db7e076731",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636660334933,
+          "stop" : 1636660343320,
+          "duration" : 8387
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除购物车的测试用例",
+        "uid" : "9d5ca9bb002e82b6",
+        "parentUid" : "3b5ef6c378682b83d398b3db7e076731",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636660344163,
+          "stop" : 1636660382607,
+          "duration" : 38444
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3b5ef6c378682b83d398b3db7e076731"
+    }, {
+      "name" : "9668-MainThread",
+      "children" : [ {
+        "name" : "添加购物车测试用例",
+        "uid" : "895f4c159745c0e7",
+        "parentUid" : "e889514e5c37def377de0515709296f5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1636631798846,
+          "stop" : 1636631803266,
+          "duration" : 4420
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除购物车的测试用例",
+        "uid" : "b6232901492754ec",
+        "parentUid" : "e889514e5c37def377de0515709296f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636631803510,
+          "stop" : 1636631834021,
+          "duration" : 30511
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e889514e5c37def377de0515709296f5"
+    } ],
+    "uid" : "125d3c338aec708d11e7aacb81844855"
+  } ]
+}

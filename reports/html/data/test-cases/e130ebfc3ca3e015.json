@@ -1,0 +1,330 @@
+{
+  "uid" : "e130ebfc3ca3e015",
+  "name" : "添加购物车测试用例",
+  "fullName" : "test_cart.TestCart#test_add",
+  "historyId" : "aee2838d0715d12aa40fe630bf0736f3",
+  "time" : {
+    "start" : 1636662777619,
+    "stop" : 1636662786149,
+    "duration" : 8530
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1636662765654,
+      "stop" : 1636662765803,
+      "duration" : 149
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_class_fixture_TestCart",
+    "time" : {
+      "start" : 1636662765803,
+      "stop" : 1636662777617,
+      "duration" : 11814
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "在首页点击登录链接",
+      "time" : {
+        "start" : 1636662772973,
+        "stop" : 1636662774295,
+        "duration" : 1322
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1636662774295,
+        "stop" : 1636662774413,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "usename",
+        "value" : "'xiaopawn'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1636662774413,
+        "stop" : 1636662774537,
+        "duration" : 124
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'123456'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1636662774537,
+        "stop" : 1636662774616,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  }, {
+    "name" : "xunit_setup_method_fixture_TestCart",
+    "time" : {
+      "start" : 1636662777617,
+      "stop" : 1636662777617,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "在首页点击zk裙子",
+      "time" : {
+        "start" : 1636662777619,
+        "stop" : 1636662777699,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "切换窗口-首页至商品页",
+      "time" : {
+        "start" : 1636662777699,
+        "stop" : 1636662778863,
+        "duration" : 1164
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击粉色",
+      "time" : {
+        "start" : 1636662778863,
+        "stop" : 1636662778918,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击M码",
+      "time" : {
+        "start" : 1636662780918,
+        "stop" : 1636662781005,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击加入购物车",
+      "time" : {
+        "start" : 1636662783006,
+        "stop" : 1636662783058,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ea4a2d753623b277",
+      "name" : "log",
+      "source" : "ea4a2d753623b277.txt",
+      "type" : "text/plain",
+      "size" : 3962
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCart::0",
+    "time" : {
+      "start" : 1636662798877,
+      "stop" : 1636662801196,
+      "duration" : 2319
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_method_fixture_TestCart::0",
+    "time" : {
+      "start" : 1636662786150,
+      "stop" : 1636662786928,
+      "duration" : 778
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "购物车功能的测试"
+  }, {
+    "name" : "suite",
+    "value" : "test_cart"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCart"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-H0Q327L"
+  }, {
+    "name" : "thread",
+    "value" : "22024-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d33610d0972a192d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636660564273,
+        "stop" : 1636660572802,
+        "duration" : 8529
+      }
+    }, {
+      "uid" : "5bb5ccef18f3b50d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636660334933,
+        "stop" : 1636660343320,
+        "duration" : 8387
+      }
+    }, {
+      "uid" : "d01d52d7829786d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636632005522,
+        "stop" : 1636632012017,
+        "duration" : 6495
+      }
+    }, {
+      "uid" : "895f4c159745c0e7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '加入成功' in '<html class=\"js cssanimations\"><head>\\n\\t<meta charset=\"utf-8\">\\n\\t<title>ZK爆款连衣裙</title>\\n\\t<meta name=\"keywords\" co...0px;\" data-am-alert=\"\"><button type=\"button\" class=\"am-close am-close-spin\">×</button><p>请选择规格</p></div></body></html>'\n +  where '<html class=\"js cssanimations\"><head>\\n\\t<meta charset=\"utf-8\">\\n\\t<title>ZK爆款连衣裙</title>\\n\\t<meta name=\"keywords\" co...0px;\" data-am-alert=\"\"><button type=\"button\" class=\"am-close am-close-spin\">×</button><p>请选择规格</p></div></body></html>' = <base.baseApi.Base object at 0x0000024D2D21CF48>.base_page_source\n +    where <base.baseApi.Base object at 0x0000024D2D21CF48> = <case.test_cart.TestCart object at 0x0000024D2C93A508>.base",
+      "time" : {
+        "start" : 1636631798846,
+        "stop" : 1636631803266,
+        "duration" : 4420
+      }
+    }, {
+      "uid" : "36a9e7dc939a890f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1636631533334,
+        "stop" : 1636631564764,
+        "duration" : 31430
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e130ebfc3ca3e015.json",
+  "parameterValues" : [ ]
+}
